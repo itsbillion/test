@@ -105,14 +105,19 @@
             border-radius: 5px;
         }
         button#submitpersonalinformation {
-        background-color: #210f7d;
-        color: white;
-        border-style: none;
-        width: 150px;
-        height: 30px;
-        display: block;
-        margin: 0 auto;
-    }
+            background-color: #210f7d;
+            color: white;
+            border-style: none;
+            width: 150px;
+            height: 30px;
+            display: block;
+            margin: 0 auto;
+        }
+        textarea {
+            border-style: solid;
+            border-radius: 5px;
+            border-width: 2px;
+        }
 
 
         @media (max-width: 860px) {
@@ -205,6 +210,9 @@
                 <h1 style="text-align: center; margin-top: 100px;">
                     Get In Touch
                 </h1>
+                <div style="display: flex; width: 100%; justify-content: center; align-content: center;">
+                    <p>Got any questions? We're here for you!</p>
+                </div>
             </legend>
             <label for="fullname"></label>
             <br>
@@ -216,7 +224,7 @@
             <br>
             <label for="yourmessage"></label>
             <br>
-            <textarea name="your message" id="" cols="30" rows="10" placeholder="Enter your message*" required></textarea>
+            <textarea name="your message" id="" cols="39" rows="5" placeholder="Enter your message*" required></textarea>
             <br>
             <br>
             <div style="display: flex; width: 100%; justify-content: center; align-content: center;">
